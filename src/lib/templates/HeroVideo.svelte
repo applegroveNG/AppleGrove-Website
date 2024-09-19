@@ -67,7 +67,6 @@
 		width: 100%;
 		height: 70vh;
 		background-color: #101828;
-		overflow: hidden;
 	}
 
 	.video-container {
@@ -91,22 +90,16 @@
 	}
 
 	.overlay {
-		position: absolute;
-		top: 0;
-		left: 0;
-		width: 100%;
-		height: 100%;
 		display: flex;
-		/* justify-content: center; */
 		align-items: center;
-		background-color: rgba(0, 0, 0, 0.5);
+		max-width: 1440px;
+		margin: auto;
+		height: 100%;
 	}
 
 	h1 {
 		color: #fbf8f2;
 		font-size: 2.5rem;
-		padding: 0 1rem;
-		/* max-width: 800px; */
 		font-family: Inter;
 		font-size: 96px;
 		font-weight: 600;
@@ -119,12 +112,7 @@
 	@media (max-width: 768px) {
 		h1 {
 			font-size: 60px;
-		}
-	}
-
-	@media (min-width: 1199px) {
-		h1 {
-			padding: 6rem;
+			padding: 1rem;
 		}
 	}
 </style>
