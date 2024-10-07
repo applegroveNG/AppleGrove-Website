@@ -5,20 +5,22 @@
 </script>
 
 {#snippet LearnMore()}
-	<div class="sleek learn">
-		<div class="container learn-container">
-			<div class="learn-more-logo">
-				<LogoHuge />
-			</div>
+	<div class="learn-container">
+		<div class="sleek learn">
+			<div class="container">
+				<div class="learn-more-logo">
+					<LogoHuge />
+				</div>
 
-			<div class="learn-more-content">
-				<p>
-					Applegrove Advisory is an innovation development company committed to driving growth and
-					impact across Africa. We partner with startups, MSMEs, public sector companies, and
-					development organizations, providing strategic insights, innovative solutions, and
-					comprehensive support to propel their success.
-				</p>
-				<a class="cta" href="/"> Learn about AppleGrove </a>
+				<div class="learn-more-content">
+					<p>
+						Applegrove Advisory is an innovation development company committed to driving growth and
+						impact across Africa. We partner with startups, MSMEs, public sector companies, and
+						development organizations, providing strategic insights, innovative solutions, and
+						comprehensive support to propel their success.
+					</p>
+					<a class="cta" href="/"> Learn about AppleGrove </a>
+				</div>
 			</div>
 		</div>
 	</div>
@@ -33,7 +35,7 @@
 					Innovation is at the core of what we do. We leverage the power of technology and strategic
 					projects to deliver value across both legacy and emerging sectors in Africa
 				</p>
-				<a class="cta pale" href="/">Learn more about our services</a>
+				<a class="ctal pale" href="/">Learn more about our services</a>
 			</div>
 			<div class="right">
 				<img src="/innovation.png" alt="innovation" />
@@ -58,14 +60,18 @@
 		padding: 1rem 2rem;
 		display: flex;
 		flex-direction: column;
+		margin: auto;
+		gap: 2rem;
 	}
 
 	.learn {
 		background: #fcfcfc;
+		margin-bottom: 5rem;
 	}
 
 	.learn-container {
 		margin-top: 4rem;
+		background-color: #fcfcfc;
 	}
 
 	.learn-more-logo {
@@ -97,6 +103,15 @@
 		text-align: left;
 		margin-right: auto;
 		margin-top: 3rem;
+		margin-bottom: 6rem;
+	}
+
+	.ctal {
+		padding: 16px 28px 16px 28px;
+		gap: 12px;
+		border-radius: 8px 0px 0px 0px;
+		border: 1px 0px 0px 0px;
+		opacity: 0px;
 	}
 
 	.cta:hover {
@@ -108,6 +123,26 @@
 		font-size: 17px;
 		font-weight: 400;
 		/* line-height: 24px; */
+	}
+
+	.left h2 {
+		font-family: Inter;
+		font-size: 60px;
+		font-weight: 600;
+		line-height: 72px;
+		letter-spacing: -0.02em;
+		text-align: left;
+		color: #151d3b;
+		margin-bottom: 3rem;
+	}
+	.reverse-on-mobile p {
+		font-family: Inter;
+		font-size: 20px;
+		font-weight: 500;
+		line-height: 30px;
+		text-align: left;
+		color: #667085;
+		max-width: 500px;
 	}
 
 	@media (min-width: 1199px) {
@@ -147,6 +182,11 @@
 		.reverse-on-mobile {
 			flex-direction: column-reverse;
 			margin-top: 3rem;
+		}
+
+		.left h2 {
+			font-size: 40px;
+			line-height: 48px;
 		}
 	}
 
