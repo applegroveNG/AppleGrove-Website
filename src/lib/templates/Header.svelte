@@ -1,18 +1,18 @@
-<script>
+<script lang="ts">
 	import { onMount } from 'svelte';
 	import Logo from '$lib/atoms/icons/Logo.svelte';
 
 	let isMenuOpen = false;
 	let isMobile = false;
-	let activeDropdown = null;
+	let activeDropdown:string = "";
 
 	function toggleMenu() {
 		isMenuOpen = !isMenuOpen;
 	}
 
-	function toggleDropdown(dropdown) {
+	function toggleDropdown(dropdown: string) {
 		if (isMobile) {
-			activeDropdown = activeDropdown === dropdown ? null : dropdown;
+			activeDropdown = activeDropdown === dropdown ? "" : dropdown;
 		}
 	}
 
@@ -20,11 +20,11 @@
 		const mediaQuery = window.matchMedia('(max-width: 1199px)');
 		isMobile = mediaQuery.matches;
 
-		const handleResize = (e) => {
+		const handleResize = (e:any) => {
 			isMobile = e.matches;
 			if (!isMobile) {
 				isMenuOpen = false;
-				activeDropdown = null;
+				activeDropdown = "";
 			}
 		};
 
@@ -42,7 +42,8 @@
 			<Logo />
 		</div>
 		{#if isMobile}
-			<button class="hamburger" on:click={toggleMenu}>
+			<!-- svelte-ignore a11y_consider_explicit_label -->
+			<button class="hamburger"  on:click={toggleMenu}>
 				<span class="bar"></span>
 				<span class="bar"></span>
 				<span class="bar"></span>
@@ -52,7 +53,7 @@
 
 	<nav class:active={isMenuOpen}>
 		<div class="dropdown" class:active={activeDropdown === 'services'}>
-			<span on:click={() => toggleDropdown('services')}>
+			<button on:click={() => toggleDropdown('services')}>
 				Services
 				<svg
 					class="caret"
@@ -70,7 +71,7 @@
 						stroke-linejoin="round"
 					/>
 				</svg>
-			</span>
+			</button>
 			<div class="dropdown-content">
 				<a href="/">Service 1</a>
 				<a href="/">Service 2</a>
@@ -79,7 +80,7 @@
 		</div>
 		<a href="/">About Us</a>
 		<div class="dropdown" class:active={activeDropdown === 'greyMatter'}>
-			<span on:click={() => toggleDropdown('greyMatter')}>
+			<button on:click={() => toggleDropdown('greyMatter')}>
 				Grey Matter
 				<svg
 					class="caret"
@@ -97,7 +98,7 @@
 						stroke-linejoin="round"
 					/>
 				</svg>
-			</span>
+			</button>
 			<div class="dropdown-content">
 				<a href="/">Insights</a>
 				<a href="/">Case Studies</a>
@@ -115,6 +116,7 @@
 		<a href="/">Access Insights</a>
 		<a href="/about" class="cta">Talk to us for Free!</a>
 	</div>
+	
 </div>
 
 <style>
@@ -158,7 +160,7 @@
 		position: relative;
 	}
 
-	.dropdown > span {
+	.dropdown > button {
 		cursor: pointer;
 		font-family: Inter;
 		font-size: 16px;

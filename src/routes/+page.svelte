@@ -1,10 +1,12 @@
 <script>
-	import Header from '$lib/templates/Header.svelte';
+	import About from '$lib/templates/About.svelte';
 	import HeroVideo from '$lib/templates/HeroVideo.svelte';
+	import Innovation from '$lib/templates/Innovation.svelte';
+	import Process from '$lib/templates/Process.svelte';
 </script>
 
-<Header />
-<HeroVideo />
 
-<h1>Welcome to SvelteKit</h1>
-<p>Visit <a href="https://kit.svelte.dev">kit.svelte.dev</a> to read the documentation</p>
+<HeroVideo />
+<About />
+<Innovation />
+<Process />
