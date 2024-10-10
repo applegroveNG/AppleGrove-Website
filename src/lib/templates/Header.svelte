@@ -1,18 +1,18 @@
-<script>
+<script lang="ts">
 	import { onMount } from 'svelte';
 	import Logo from '$lib/atoms/icons/Logo.svelte';
 
 	let isMenuOpen = false;
 	let isMobile = false;
-	let activeDropdown = null;
+	let activeDropdown: string = '';
 
 	function toggleMenu() {
 		isMenuOpen = !isMenuOpen;
 	}
 
-	function toggleDropdown(dropdown) {
+	function toggleDropdown(dropdown: string) {
 		if (isMobile) {
-			activeDropdown = activeDropdown === dropdown ? null : dropdown;
+			activeDropdown = activeDropdown === dropdown ? '' : dropdown;
 		}
 	}
 
@@ -20,11 +20,11 @@
 		const mediaQuery = window.matchMedia('(max-width: 1199px)');
 		isMobile = mediaQuery.matches;
 
-		const handleResize = (e) => {
+		const handleResize = (e: any) => {
 			isMobile = e.matches;
 			if (!isMobile) {
 				isMenuOpen = false;
-				activeDropdown = null;
+				activeDropdown = '';
 			}
 		};
 
@@ -36,114 +36,100 @@
 	});
 </script>
 
-<svelte:head>
-	<title>AppleGrove Advisory</title>
-	<meta name="description" content="Innovation Consulting Company in Lagos" />
-	<meta name="keywords" content="Innovation, Consulting, Lagos, Tech, FinTech, fintech" />
-	<meta name="author" content="Fish Studios" />
-	<meta name="viewport" content="width=device-width, initial-scale=1" />
-	<link rel="icon" type="image/png" href="/favicon.png" />
-</svelte:head>
-
-<div class="general-container">
-	<div class="header-container">
-		<div class="left">
-			<div class="logo">
-				<Logo />
-			</div>
-			{#if isMobile}
-				<button class="hamburger" on:click={toggleMenu}>
-					<span class="bar"></span>
-					<span class="bar"></span>
-					<span class="bar"></span>
-				</button>
-			{/if}
+<div class="header-container">
+	<div class="left">
+		<div class="logo">
+			<Logo />
 		</div>
+		{#if isMobile}
+			<!-- svelte-ignore a11y_consider_explicit_label -->
+			<button class="hamburger" on:click={toggleMenu}>
+				<span class="bar"></span>
+				<span class="bar"></span>
+				<span class="bar"></span>
+			</button>
+		{/if}
+	</div>
 
-		<nav class:active={isMenuOpen}>
-			<div class="dropdown" class:active={activeDropdown === 'services'}>
-				<span on:click={() => toggleDropdown('services')}>
-					Services
-					<svg
-						class="caret"
-						width="10"
-						height="6"
-						viewBox="0 0 10 6"
-						fill="none"
-						xmlns="http://www.w3.org/2000/svg"
-					>
-						<path
-							d="M1 1L5 5L9 1"
-							stroke="white"
-							stroke-width="2"
-							stroke-linecap="round"
-							stroke-linejoin="round"
-						/>
-					</svg>
-				</span>
-				<div class="dropdown-content">
-					<a href="/">Service 1</a>
-					<a href="/">Service 2</a>
-					<a href="/">Service 3</a>
-				</div>
+	<nav class:active={isMenuOpen}>
+		<div class="dropdown" class:active={activeDropdown === 'services'}>
+			<button on:click={() => toggleDropdown('services')}>
+				Services
+				<svg
+					class="caret"
+					width="10"
+					height="6"
+					viewBox="0 0 10 6"
+					fill="none"
+					xmlns="http://www.w3.org/2000/svg"
+				>
+					<path
+						d="M1 1L5 5L9 1"
+						stroke="white"
+						stroke-width="2"
+						stroke-linecap="round"
+						stroke-linejoin="round"
+					/>
+				</svg>
+			</button>
+			<div class="dropdown-content">
+				<a href="/">Service 1</a>
+				<a href="/">Service 2</a>
+				<a href="/">Service 3</a>
 			</div>
-			<a href="/">About Us</a>
-			<div class="dropdown" class:active={activeDropdown === 'greyMatter'}>
-				<span on:click={() => toggleDropdown('greyMatter')}>
-					Grey Matter
-					<svg
-						class="caret"
-						width="10"
-						height="6"
-						viewBox="0 0 10 6"
-						fill="none"
-						xmlns="http://www.w3.org/2000/svg"
-					>
-						<path
-							d="M1 1L5 5L9 1"
-							stroke="white"
-							stroke-width="2"
-							stroke-linecap="round"
-							stroke-linejoin="round"
-						/>
-					</svg>
-				</span>
-				<div class="dropdown-content">
-					<a href="/">Insights</a>
-					<a href="/">Case Studies</a>
-					<a href="/">Blog</a>
-				</div>
+		</div>
+		<a href="/">About Us</a>
+		<div class="dropdown" class:active={activeDropdown === 'greyMatter'}>
+			<button on:click={() => toggleDropdown('greyMatter')}>
+				Grey Matter
+				<svg
+					class="caret"
+					width="10"
+					height="6"
+					viewBox="0 0 10 6"
+					fill="none"
+					xmlns="http://www.w3.org/2000/svg"
+				>
+					<path
+						d="M1 1L5 5L9 1"
+						stroke="white"
+						stroke-width="2"
+						stroke-linecap="round"
+						stroke-linejoin="round"
+					/>
+				</svg>
+			</button>
+			<div class="dropdown-content">
+				<a href="/">Insights</a>
+				<a href="/">Case Studies</a>
+				<a href="/">Blog</a>
 			</div>
-			<a href="/">Contact</a>
-			<div class="mobile-only">
-				<a href="/">Access Insights</a>
-				<a href="/about" class="cta">Talk to us for Free!</a>
-			</div>
-		</nav>
-
-		<div class="right">
+		</div>
+		<a href="/">Contact</a>
+		<div class="mobile-only">
 			<a href="/">Access Insights</a>
 			<a href="/about" class="cta">Talk to us for Free!</a>
 		</div>
+	</nav>
+
+	<div class="right">
+		<a href="/">Access Insights</a>
+		<a href="/about" class="cta">Talk to us for Free!</a>
 	</div>
 </div>
 
 <style>
-	.general-container {
-		background-color: #151d3b;
-	}
 	.header-container {
 		display: flex;
 		justify-content: space-between;
 		align-items: center;
 		padding: 1rem 2rem;
-		max-width: 1440px;
-		margin: 0 auto;
+		background-color: #151d3b;
 	}
 
 	@media (min-width: 1199px) {
 		.header-container {
-			padding: 3rem 0rem;
+			padding: 3rem 6rem;
 		}
 	}
 
@@ -173,7 +159,7 @@
 		position: relative;
 	}
 
-	.dropdown > span {
+	.dropdown > button {
 		cursor: pointer;
 		font-family: Inter;
 		font-size: 16px;
