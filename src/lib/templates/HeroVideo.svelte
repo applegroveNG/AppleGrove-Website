@@ -2,6 +2,7 @@
 	import { onMount } from 'svelte';
 	import { animate, spring } from 'motion';
 	import IntersectionObserverSvelte from 'svelte-intersection-observer';
+	import Container from '../../Components/Container.svelte';
 
 	let videoElement;
 	let isVideoLoaded = $state(false);
@@ -52,20 +53,22 @@
 			Your browser does not support the video tag.
 		</video>
 	</div>
-	<IntersectionObserverSvelte element={h1Element} bind:intersecting>
-		<div class="overlay">
-			<h1 bind:this={h1Element}>
-				Championing Africa's <br /> Development through <br />Innovation
-			</h1>
-		</div>
-	</IntersectionObserverSvelte>
+	<div class="container mx-auto h-fit lg:px-14 px-4 py-16">
+		<IntersectionObserverSvelte element={h1Element} bind:intersecting>
+			<div class="overlay">
+				<h1 bind:this={h1Element} >
+					Championing Africa's <br /> Development through <br />Innovation
+				</h1>
+			</div>
+		</IntersectionObserverSvelte>
+	</div>
 </div>
 
 <style>
 	.hero-container {
 		position: relative;
 		width: 100%;
-		height: 70vh;
+		height: 80vh;
 		background-color: #101828;
 	}
 
