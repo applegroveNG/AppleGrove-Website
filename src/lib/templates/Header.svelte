@@ -39,7 +39,7 @@
 <div class="header-container">
 	<div class="left">
 		<div class="logo">
-			<Logo />
+			<a href="/"><Logo /></a>
 		</div>
 		{#if isMobile}
 			<!-- svelte-ignore a11y_consider_explicit_label -->
@@ -73,9 +73,10 @@
 				</svg>
 			</button>
 			<div class="dropdown-content">
-				<a href="/">Service 1</a>
-				<a href="/">Service 2</a>
-				<a href="/">Service 3</a>
+				<a href="/">Consulting and Advisory Services</a>
+				<a href="/">Strategic project Solutions</a>
+				<a href="/">IT Services and Digital Transformation</a>
+				<a href="/">Venture Development</a>
 			</div>
 		</div>
 		<a href="/">About Us</a>
