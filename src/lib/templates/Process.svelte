@@ -12,7 +12,7 @@
 		<div class="flex mt-14 flex-col lg:flex-row justify-between h-full gap-2 lg:gap-8 lg:mt-28">
 			<div class="flex-1 grid md:grid-cols-2 gap-2">
 				<div
-					class="bg-apple-yellow rounded-tl-3xl rounded-br-3xl w-full flex flex-col justify-center items-center"
+					class="bg-apple-yellow rounded-tl-3xl rounded-br-3xl w-full flex flex-col justify-center "
 				>
 					<div class="grid gap-3 py-14 px-8 ">
 						<span class="text-left text-4xl font-semibold text-apple-blue">01</span>
@@ -20,7 +20,7 @@
 					</div>
 				</div>
 				<div
-					class="bg-[#FFEDCB] rounded-tl-3xl rounded-br-3xl w-full flex flex-col justify-center items-center"
+					class="bg-[#FFEDCB] rounded-tl-3xl rounded-br-3xl w-full flex flex-col justify-center "
 				>
 					<div class="grid gap-3 py-14 px-8 ">
 						<span class="text-left text-4xl font-semibold text-apple-blue">02</span>
@@ -28,7 +28,7 @@
 					</div>
 				</div>
 				<div
-					class="bg-[#EEEEEE] rounded-tl-3xl rounded-br-3xl w-full flex flex-col justify-center items-center"
+					class="bg-[#EEEEEE] rounded-tl-3xl rounded-br-3xl w-full flex flex-col justify-center "
 				>
 					<div class="grid gap-3 py-14 px-8 ">
 						<span class="text-left text-4xl font-semibold text-apple-blue">03</span>
@@ -36,7 +36,7 @@
 					</div>
 				</div>
 				<div
-					class="bg-[#FFC1B5] rounded-tr-3xl rounded-bl-3xl w-full flex flex-col justify-center items-center"
+					class="bg-[#FFC1B5] rounded-tr-3xl rounded-bl-3xl w-full flex flex-col justify-center "
 				>
 					<div class="grid gap-3 py-14 px-8 ">
 						<span class="text-left text-4xl font-semibold text-apple-blue">04</span>

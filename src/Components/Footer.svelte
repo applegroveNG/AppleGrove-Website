@@ -31,7 +31,7 @@
 			class="container flex flex-col text-text-light mx-auto justify-between w-full h-fit px-7 py-6 lg:px-14 lg:py-12"
 		>
 			<ul class="md:flex justify-between font-semibold w-full h-fit md:text-left gap-16">
-				<li class="flex flex-1 flex-row gap-4 justify-between mb-4">
+				<li class="flex flex-1 flex-col md:flex-row gap-4 justify-between mb-4">
 					<ul class="flex w-full flex-col gap-4">
 						<a href="/">
 							<Logo />
@@ -46,7 +46,7 @@
 						<li>Venture Development</li>
 					</ul>
 				</li>
-				<li class="flex flex-1 w-full flex-row gap-4 justify-between mb-4">
+				<li class="flex flex-1 w-full flex-col md:flex-row gap-4 justify-between mb-4">
 					<ul class="flex w-full flex-col gap-4">
 						<li>Company</li>
 						<li>About Us</li>

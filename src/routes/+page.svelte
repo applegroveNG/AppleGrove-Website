@@ -19,7 +19,7 @@
 				AppleGrove is dedicated to providing innovative solutions that drive positive change across
 				various sectors.
 			</p>
-			<h4 class="lg:max-w-[464px] font-semibold text-6xl lg:text-7xl leading-snug text-apple-blue">
+			<h4 class="lg:max-w-[464px] font-semibold text-5xl md:text-6xl lg:text-7xl leading-snug text-apple-blue">
 				Private Philanthropic Public
 			</h4>
 			<a
@@ -32,7 +32,7 @@
 			<div
 				class="absolute bg-apple-blue bg-opacity-40 text-text-light top-0 bottom-0 right-0 left-0"
 			>
-				<p class="absolute left-4 lg:left-28 bottom-20 w-[504px] leading-7">
+				<p class="absolute left-4 lg:left-28 bottom-20 md:w-[504px] leading-7">
 					We help businesses achieve sustainable success through our expertise in market analysis,
 					operational efficiency, and risk management.
 				</p>
