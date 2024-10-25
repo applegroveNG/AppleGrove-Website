@@ -53,10 +53,10 @@
 			Your browser does not support the video tag.
 		</video>
 	</div>
-	<div class="container mx-auto h-fit lg:px-14 px-4 py-16">
+	<div class="container mx-auto h-full lg:px-14 px-4 py-16">
 		<IntersectionObserverSvelte element={h1Element} bind:intersecting>
-			<div class="overlay">
-				<h1 bind:this={h1Element} >
+			<div class="overlay h-full flex justify-center content-center">
+				<h1 bind:this={h1Element} class="text-5xl tracking-tight text-[#fbf8f2] font-semibold leading-normal md:text-7xl md:leading-[116.18px] lg:text-8xl ">
 					Championing Africa's <br /> Development through <br />Innovation
 				</h1>
 			</div>
@@ -100,22 +100,4 @@
 		height: 100%;
 	}
 
-	h1 {
-		color: #fbf8f2;
-		font-size: 2.5rem;
-		font-family: Inter;
-		font-size: 96px;
-		font-weight: 600;
-		line-height: 116.18px;
-		letter-spacing: -0.02em;
-		text-align: left;
-		opacity: 0;
-	}
-
-	@media (max-width: 768px) {
-		h1 {
-			font-size: 60px;
-			padding: 1rem;
-		}
-	}
 </style>
