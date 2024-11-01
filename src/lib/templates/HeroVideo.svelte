@@ -2,7 +2,6 @@
 	import { onMount } from 'svelte';
 	import { animate, spring } from 'motion';
 	import IntersectionObserverSvelte from 'svelte-intersection-observer';
-	import Container from '../../Components/Container.svelte';
 
 	let videoElement;
 	let isVideoLoaded = $state(false);

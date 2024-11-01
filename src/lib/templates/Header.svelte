@@ -73,13 +73,13 @@
 				</svg>
 			</button>
 			<div class="dropdown-content">
-				<a href="/">Consulting and Advisory Services</a>
-				<a href="/">Strategic project Solutions</a>
-				<a href="/">IT Services and Digital Transformation</a>
-				<a href="/">Venture Development</a>
+				<a href="/services#consulting">Consulting and Advisory Services</a>
+				<a href="/services#strategic">Strategic project Solutions</a>
+				<a href="/services#it">IT Services and Digital Transformation</a>
+				<a href="/services#venture">Venture Development</a>
 			</div>
 		</div>
-		<a href="/">About Us</a>
+		<a href="/about_us">About Us</a>
 		<div class="dropdown" class:active={activeDropdown === 'greyMatter'}>
 			<button on:click={() => toggleDropdown('greyMatter')}>
 				Grey Matter
@@ -106,16 +106,16 @@
 				<a href="/">Blog</a>
 			</div>
 		</div>
-		<a href="/">Contact</a>
+		<a href="/contact_us">Contact</a>
 		<div class="mobile-only">
 			<a href="/">Access Insights</a>
-			<a href="/about" class="cta">Talk to us for Free!</a>
+			<a href="/contact_us" class="cta">Talk to us for Free!</a>
 		</div>
 	</nav>
 
 	<div class="right">
 		<a href="/">Access Insights</a>
-		<a href="/about" class="cta">Talk to us for Free!</a>
+		<a href="/contact_us" class="cta">Talk to us for Free!</a>
 	</div>
 </div>
 
