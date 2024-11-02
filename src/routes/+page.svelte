@@ -22,6 +22,7 @@
 			</p>
 			<h4 class="lg:max-w-[464px] font-semibold text-6xl lg:text-7xl leading-snug text-apple-blue">
 				{homeData.title}
+
 			</h4>
 			<a
 				href="#top"

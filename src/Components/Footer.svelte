@@ -34,6 +34,7 @@
 			<ul class="flex flex-col lg:flex-row justify-between font-semibold w-full h-fit md:text-left lg:gap-16">
 				<li class="flex flex-1 flex-col lg:flex-row gap-4 justify-between mb-4">
 					<ul class="flex flex-1 w-full flex-col gap-4">
+
 						<a href="/">
 							<Logo />
 						</a>
