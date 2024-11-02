@@ -6,13 +6,13 @@
 </script>
 
 <Container>
-	<div class="flex bg-apple-blue max-h-[356px] overflow-hidden rounded-3xl px-16">
+	<div class="flex flex-col-reverse p-8 lg:py-0 lg:flex-row bg-apple-blue max-h-[356px] overflow-hidden rounded-3xl lg:px-16">
 		<div class="flex-1 flex justify-center flex-col">
 			<h1 class="font-semibold text-4xl text-white">{data.title}</h1>
-			<p class="text-[#FCFCFD] mt-6 leading-8 max-w-[340px]">{data.text}</p>
+			<p class="text-[#FCFCFD] mt-6 leading-8 lg:max-w-[340px]">{data.text}</p>
 		</div>
-		<div class="flex-1">
-			<img src={data.img} alt="" class="object-center" />
+		<div class="">
+			<img src={data.img} alt="" class="object-bottom w-full " />
 		</div>
 	</div>
 	<!-- ===================== Contact us form ========================= -->
