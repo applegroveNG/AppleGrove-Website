@@ -1,0 +1,191 @@
+[
+    {
+        "home": [
+            {
+                "about": {
+                    "text": "Applegrove Advisory is an innovation development company committed to driving growth an impact across Africa. We partner with startups, MSMEs, public sector companies, and development organizations, providing strategic insights, innovative solutions, and comprehensive support to propel their success.",
+                    "button": "Learn about AppleGrove",
+                    "img": "/images/applegrove.svg"
+                },
+                "innovation": {
+                    "title": "Innovation and Impact",
+                    "paragraph": "Innovation is at the core of what we do. We leverage the power of technology and strategic projects to deliver value across both legacy and emerging sectors in Africa",
+                    "button": "Learn more about our services",
+                    "img": "/images/image28.png"
+                },
+                "process": {
+                    "title": "The AppleGrove Process",
+                    "text": "Achieving our goals means delivering unparalleled value and success to our clients through the following steps:",
+                    "cards": [
+                        {
+                            "text": "Plunging into Possibilities",
+                            "color": "#F4AD20"
+                        },
+                        {
+                            "text": "Leading with ingenuity",
+                            "color": "#FFEDCB"
+                        },
+                        {
+                            "text": "Building Bridges",
+                            "color": "#EEEEEE"
+                        },
+                        {
+                            "text": "Decoding Success",
+                            "color": "#FFC1B5"
+                        }
+                    ],
+                    "title2": "COMPREHENSIVE UNDERSTANDING",
+                    "paragraph": "We specialize in providing expert consulting services across a range of dynamic sectors. Our goal is to drive innovation, efficiency, and growth in each of these industries, serving both public, private, and philanthropic sectors."
+                },
+                "sector": {
+                    "title": "Private Philanthropic Public",
+                    "paragraph": "AppleGrove is dedicated to providing innovative solutions that drive positive change across various sectors.",
+                    "btntext": "Services we offer",
+                    "img": "/images/sector.png",
+                    "imgtext": "We help businesses achieve sustainable success through our expertise in market analysis,operational efficiency, and risk management."
+                }
+            }
+        ],
+        "about": [
+            {
+                "headerImg": "/images/aboutus.png",
+                "title": "About AppleGrove Advisory Limited",
+                "headerbg": "/Vector.png",
+                "subheading": "Client-Centric Solutions, no <br> matter the industry",
+                "text": "We're your strategic partner, dedicated to understanding your unique challenges and delivering tailored solutions that drive real business growth. From consulting to project development, we're here to empower your success.",
+                "body": [
+                    {
+                        "title": "Transforming Ideas into Reality, Driving Africa's Innovation Engine",
+                        "body": "Our mission is to be a catalyst for innovation in Africa, helping businesses turn their ideas into reality and drive sustainable growth. We empower entrepreneurs and corporations to thrive in today's competitive global landscape.",
+                        "img": "/images/image2.jpg",
+                        "tag": "Mission"
+                    },
+                    {
+                        "title": "Shaping Africa's Future",
+                        "body": "We envision a thriving Africa where businesses excel and communities prosper. We're committed to being the driving force behind this transformation, leveraging strategic consulting and design to create a brighter future for the continent.",
+                        "img": "/images/image3.jpg",
+                        "tag": "Vission"
+                    }
+                ],
+                "value": {
+                    "title": "Driving Innovation, Integrity, and Excellence in Every Partnership",
+                    "values": [
+                        {
+                            "title": "Driving Innovations",
+                            "text": "Explore new ideas and technologies to bring fresh perspectives and cutting-edge solutions to our clients."
+                        },
+                        {
+                            "title": "Doing the right thing",
+                            "text": "Uphold the highest standards of honesty, transparency, and ethical behavior, building trust and respect with our clients."
+                        },
+                        {
+                            "title": "Striving for the best",
+                            "text": "Deliver top-quality service and outstanding results, from our initial consultation to the final delivery - backed by our team's expertise, professionalism, and dedication."
+                        }
+                    ]
+                }
+            }
+        ],
+        "services": [
+            {
+                "heroTxt": "Turning Vision into Reality through Expert Guidance",
+                "heroImg": "/images/Frame91.png",
+                "offerTitle": "What we offer",
+                "offerTxt": "We aim to deliver strong results and impact through comprehensive Consulting and Advisory Services focused on driving measurable results and long-term success",
+                "service": [
+                    {
+                        "Title": "Consulting and Advisory Services",
+                        "Text": "Our consulting and advisory services offer expert guidance to help businesses, public sector entities, and development organizations navigate complex challenges and seize new opportunities",
+                        "Img": "/images/Rectangle133.png"
+                    },
+                    {
+                        "Title": "Strategic Project Development",
+                        "Text": "At Applegrove Advisory, we excel in strategic project development, focusing on joint ventures and partnerships that drive mutual growth and success.",
+                        "subText": "Our expert team conducts thorough market analysis, identifies potential partners, and facilitates seamless collaboration. By aligning broad objectives and specific business goals with strategic partners, we ensure optimal outcomes and long-term success.",
+                        "Img": "/images/Rectangle134.png"
+                    },
+                    {
+                        "Title": "IT Services and Digital Transformation",
+                        "Text": "Embrace the future with Applegrove Advisory's IT Services and Digital Transformation solutions tailored to corporates. We provide state-of-the-art digital transformation services to elevate your business operations and processes.",
+                        "subText": "We offer technology integration services tailored to meet your specific needs, ensuring a smooth transition and improved efficiency.",
+                        "Img1": "/images/it.png",
+                        "Img2": "/images/innovation.png"
+                    },
+                    {
+                        "Title": "Venture Development and <br class='xl:hidden'> <span style='background-color:#FBEAC6;' class='rounded-full py-2 px-6'>MSME Support</span>",
+                        "Text": "We believe in nurturing the next generation of innovative businesses. Our Venture Development arm - The Grove Foundry (Venture studio + Syndicate fund) is designed to support startups and established companies alike, providing the tools, network, market support and investments needed to turn visionary ideas into successful ventures.",
+                        "btnText": "Learn more about venture development",
+                        "Img": "/images/sme.png"
+                    },
+                    {
+                        "Title1": "Industries",
+                        "Title2": "We innovate",
+                        "Text": "We specialize in providing expert consulting services across a range of dynamic industries. Our goal is to drive innovation, efficiency, and growth in each of these industries, serving both the public, private and philanthropic sectors",
+                        "Img": "/images/gloss.png"
+                    }
+                ],
+                "serviceCard": [
+                    {
+                        "icon": "/images/service02.svg",
+                        "title": "Information and Communication Technology (ICT)",
+                        "paragraph": "In the fast-paced world of ICT, staying ahead of the curve is crucial. We offer tailored solutions that enhance your technological capabilities, streamline processes, and foster innovation. From digital transformation to cybersecurity, we help you leverage technology to achieve your business goals.",
+                        "cardColor": "#FFF6E5"
+                    },
+                    {
+                        "icon": "/images/services03.svg",
+                        "title": "Real Estate and Construction",
+                        "paragraph": "We support real estate and construction companies with strategic planning, market analysis, and project management solutions. Additionally, we offer investment advisory services to guide you towards profitable real estate opportunities and assist with capital mobilization and project finance for developers and real estate companies. Our expertise helps you navigate market fluctuations, optimize operations, and deliver successful projects on time and within budget.",
+                        "cardColor": "#E5EBFF"
+                    },
+                    {
+                        "icon": "/images/services01.svg",
+                        "title": "Creative Economy",
+                        "paragraph": "The creative economy thrives on the power of creativity to drive economic growth. We provide strategic guidance and support to creative enterprises, helping them to innovate, expand their reach, and thrive in competitive markets. Whether you're in media, design, movies or music, we help turn your creative vision into reality.",
+                        "cardColor": "#E5EBFF"
+                    },
+                    {
+                        "icon": "/images/services03.svg",
+                        "title": "Energy",
+                        "paragraph": "Our energy sector consulting services are designed to help you navigate and thrive in a rapidly changing landscape. We provide comprehensive insights into sustainable practices, regulatory compliance, and the latest technological advancements. Additionally, we offer specialized advisory services for oil and gas transactions, including project finance, risk management, and strategic partnerships. Our goal is to ensure that your operations are not only efficient and cost-effective but also aligned with environmental sustainability and industry best practices.",
+                        "cardColor": "#FFF6E5"
+                    }
+                ]
+            }
+        ],
+        "ventureDevelopment": [
+            {
+                "heroTitle": "Venture <br /> <span class='float-right mt-8'>Development</span>",
+                "heroImg": "/images/venture1.png",
+                "section": [
+                    {
+                        "title": "The Grove <br /><span class='float-right -mt-4'>Foundry</span>",
+                        "subTitle": "We create companies that generate financial returns and create positive social impact.",
+                        "text": "We believe in the power of human-centered innovation. Our process starts with deep market research to identify unmet needs. We then assemble cross-functional teams of experts to develop groundbreaking solutions. Through rigorous prototyping and testing, we validate our concepts before scaling them into sustainable businesses.",
+                        "img": "/images/venture2.jpg"
+                    },
+                    {
+                        "title": "The Grove <br /><span class='float-right -mt-4'>Syndicate</span>",
+                        "subTitle": "Dedicated to partnering with exceptional African entrepreneurs who are building scalable, technology-driven businesses.",
+                        "text": "Focused on early-stage companies with high-growth potential in sectors that align with Africa's development priorities. Our ideal investment is centered around supporting innovation that drives economic growth and improves people's lives.",
+                        "img": "/images/venture3.jpg",
+                        "imgtext": "We believe in a collaborative approach to investing. Our investment process begins with a thorough evaluation of the startup's team, market opportunity, and business model. Once we identify promising ventures, we provide not only capital but also strategic guidance and access to our network. Our goal is to be more than just financial backers; we aim to be active partners in our portfolio companies' success."
+                    }
+                ]
+            }
+        ],
+        "contactUs": [
+            {
+                "title": "Book a call with us",
+                "text": "Schedule a consultation with AppleGrove Advisory Limited and discover how our expert solutions can drive your success.",
+                "img": "/images/gloss.png",
+                "form": {
+                    "name": "Name",
+                    "email": "Email",
+                    "sector": "Sector",
+                    "help": "How can we help?"
+                },
+                "btnText": "Get started"
+            }
+        ]
+    }
+]
