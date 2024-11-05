@@ -27,6 +27,7 @@
 		</div>
 	</div>
 	<!-- =============================================== Footer ============================================================= -->
+
 	<div class="bg-apple-blue">
 		<div class="container text-text-light text-sm lg:text-lg mx-auto w-full h-fit px-7 py-6 lg:px-14 lg:py-12">
 			<ul class="grid lg:grid-cols-4 xl:grid-cols-5 md:grid-cols-2 mb-12 font-semibold w-full h-fit md:text-left">

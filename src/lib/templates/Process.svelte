@@ -23,6 +23,7 @@
 						</div>
 					</div>
 				{/each}
+
 			</div>
 			<div
 				class="flex-1 flex p-8 flex-col font-medium h-full justify-between rounded-3xl gap-4 text-[#FFFCF5] bg-apple-blue"
