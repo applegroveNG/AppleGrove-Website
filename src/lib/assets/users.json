@@ -1,0 +1,9 @@
+{
+    "users": [
+        {
+            "id": 1,
+            "username": "AppleGrove advsiory",
+            "avatar": "/src/lib/images/Avatar.png"
+        }
+    ]
+}

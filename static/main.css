@@ -151,6 +151,7 @@ table {
 body {
 	line-height: 1.5;
 	-webkit-font-smoothing: antialiased;
+	scroll-behavior: smooth;
 }
 /*
   5. Improve media defaults

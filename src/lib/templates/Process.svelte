@@ -1,18 +1,18 @@
 <script>
 	import Container from '../../Components/Container.svelte';
 	import datas from '$lib/assets/data.json';
-	let homeData = datas[0].home[0].process;
+	let {process} = datas[0].home[0];
 </script>
 
 <Container>
 	<div class="flex flex-col w-full gap-4">
-		<h1 class="font-semibold text-3xl lg:text-6xl lg:leading-[72px]">{homeData.title}</h1>
+		<h1 class="font-semibold text-3xl lg:text-6xl lg:leading-[72px]">{process.title}</h1>
 		<p class="text-xl lg:w-[656px] lg:text-2xl text-[#1D2939]">
-			{homeData.text}
+			{process.text}
 		</p>
 		<div class="flex mt-14 flex-col lg:flex-row justify-between h-full gap-2 lg:gap-8 lg:mt-28">
 			<div class="flex-1 grid md:grid-cols-2 gap-2">
-				{#each homeData.cards as card, index}
+				{#each process.cards as card, index}
 					<div
 						class=" {index === 3 ? 'rounded-tr-3xl rounded-bl-3xl'	: 'rounded-tl-3xl rounded-br-3xl'}  w-full flex flex-col justify-center items-center"
 						style="background-color: {card.color};"
@@ -41,9 +41,9 @@
 						<circle cx="60" cy="34" r="20" fill="#6CE9A6" />
 					</svg>
 				</span>
-				<h5 class=" lg:text-3xl text-2xl mt-16">{homeData.title2}</h5>
+				<h5 class=" lg:text-3xl text-2xl mt-16">{process.title2}</h5>
 				<p class="lg:text-xl text-lg mt-16 leading-7">
-					{homeData.paragraph}
+					{process.paragraph}
 				</p>
 			</div>
 		</div>
