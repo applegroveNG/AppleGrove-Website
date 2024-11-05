@@ -73,13 +73,13 @@
 				</svg>
 			</button>
 			<div class="dropdown-content">
-				<a href="/services#consulting">Consulting and Advisory Services</a>
-				<a href="/services#strategic">Strategic project Solutions</a>
-				<a href="/services#it">IT Services and Digital Transformation</a>
-				<a href="/services#venture">Venture Development</a>
+				<a href="/services#consulting" data-sveltekit-preload-code>Consulting and Advisory Services</a>
+				<a href="/services#strategic" data-sveltekit-preload-code>Strategic project Solutions</a>
+				<a href="/services#it" data-sveltekit-preload-code>IT Services and Digital Transformation</a>
+				<a href="/services#venture" data-sveltekit-preload-code>Venture Development</a>
 			</div>
 		</div>
-		<a href="/about_us">About Us</a>
+		<a href="/about_us" data-sveltekit-preload-code>About Us</a>
 		<div class="dropdown" class:active={activeDropdown === 'greyMatter'}>
 			<button on:click={() => toggleDropdown('greyMatter')}>
 				Grey Matter
@@ -103,10 +103,10 @@
 			<div class="dropdown-content">
 				<a href="/">Insights</a>
 				<a href="/">Case Studies</a>
-				<a href="/">Blog</a>
+				<a href="/blog" data-sveltekit-preload-code>Blog</a>
 			</div>
 		</div>
-		<a href="/contact_us">Contact</a>
+		<a href="/contact_us" data-sveltekit-preload-code>Contact</a>
 		<div class="mobile-only">
 			<a href="/">Access Insights</a>
 			<a href="/contact_us" class="cta">Talk to us for Free!</a>
@@ -115,7 +115,7 @@
 
 	<div class="right">
 		<a href="/">Access Insights</a>
-		<a href="/contact_us" class="cta">Talk to us for Free!</a>
+		<a href="/contact_us" class="cta" data-sveltekit-preload-code>Talk to us for Free!</a>
 	</div>
 </div>
 

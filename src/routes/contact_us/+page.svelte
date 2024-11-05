@@ -5,14 +5,21 @@
 	let data = datas[0].contactUs[0];
 </script>
 
+<svelte:head>
+	<title>Apple Grove - Contact Us | {data.title}</title>
+	<meta property=" og:title" content={data.title} />
+</svelte:head>
+
 <Container>
-	<div class="flex flex-col-reverse p-8 lg:py-0 lg:flex-row bg-apple-blue max-h-[356px] overflow-hidden rounded-3xl lg:px-16">
+	<div
+		class="flex flex-col-reverse p-8 lg:py-0 lg:flex-row bg-apple-blue max-h-[356px] overflow-hidden rounded-3xl lg:px-16"
+	>
 		<div class="flex-1 flex justify-center flex-col">
 			<h1 class="font-semibold text-4xl text-white">{data.title}</h1>
 			<p class="text-[#FCFCFD] mt-6 leading-8 lg:max-w-[340px]">{data.text}</p>
 		</div>
 		<div class="">
-			<img src={data.img} alt="" class="object-bottom w-full " />
+			<img src={data.img} alt="" class="object-bottom w-full" />
 		</div>
 	</div>
 	<!-- ===================== Contact us form ========================= -->
@@ -23,15 +30,36 @@
 		<ul class="flex flex-col max-w-[512px] mx-auto gap-6">
 			<li class="flex flex-col">
 				<label class="font-medium text-[#344054] text-sm" for="name">{data.form.name}*</label>
-				<input required class="rounded-lg shadow-sm py-3 px-4 border border-[#D0D5DD]" type="text" name="name" id="" placeholder="Your name" />
+				<input
+					required
+					class="rounded-lg shadow-sm py-3 px-4 border border-[#D0D5DD]"
+					type="text"
+					name="name"
+					id=""
+					placeholder="Your name"
+				/>
 			</li>
 			<li class="flex flex-col">
 				<label class="font-medium text-[#344054] text-sm" for="email">{data.form.email}*</label>
-				<input required class="rounded-lg shadow-sm py-3 px-4 border border-[#D0D5DD]" type="email" name="email" id="" placeholder="you@company.com" />
+				<input
+					required
+					class="rounded-lg shadow-sm py-3 px-4 border border-[#D0D5DD]"
+					type="email"
+					name="email"
+					id=""
+					placeholder="you@company.com"
+				/>
 			</li>
 			<li class="flex flex-col">
 				<label class="font-medium text-[#344054] text-sm" for="sector">{data.form.sector}*</label>
-				<input required class="rounded-lg shadow-sm  py-3 px-4 border border-[#D0D5DD]" type="text" name="sector" id="" placeholder="Real estate" />
+				<input
+					required
+					class="rounded-lg shadow-sm py-3 px-4 border border-[#D0D5DD]"
+					type="text"
+					name="sector"
+					id=""
+					placeholder="Real estate"
+				/>
 			</li>
 			<li class="flex flex-col">
 				<label class="font-medium text-[#344054] text-sm" for="help">{data.form.help}</label>
@@ -43,7 +71,11 @@
 					placeholder="Tell us a little about the project/business..."
 				></textarea>
 			</li>
-			<button type="submit" class="bg-apple-yellow mt-3 py-3 rounded-lg font-semibold hover:bg-apple-blue-light hover:text-white">{data.btnText}</button>
+			<button
+				type="submit"
+				class="bg-apple-yellow mt-3 py-3 rounded-lg font-semibold hover:bg-apple-blue-light hover:text-white"
+				>{data.btnText}</button
+			>
 		</ul>
 	</form>
 </Container>

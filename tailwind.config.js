@@ -11,7 +11,8 @@ export default {
       'gray': '#DBE1F9',
       'warning': '#565584',
       'text-light':'#EEEEEE',
-      'white':'#FFFFFF',
+      'white': '#FFFFFF',
+      'apple-blog-text': '#101828',
     },
     plugins: [],
   }

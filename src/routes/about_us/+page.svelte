@@ -5,7 +5,10 @@
 	import Tag from '../../Components/Tag.svelte';
 	let data = datas[0].about[0];
 </script>
-
+<svelte:head>
+	<title>Apple Grove - About Us | {data.title}</title>
+	<meta property=" og:title" content={data.title} />
+</svelte:head>
 <main>
 	<!-- <Container>
 		<div class="relative w-full h-fit">

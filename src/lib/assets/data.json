@@ -2,6 +2,9 @@
     {
         "home": [
             {
+                "hero": {
+                    "heroText":"Championing Africa's Development through Innovation"
+                },
                 "about": {
                     "text": "Applegrove Advisory is an innovation development company committed to driving growth an impact across Africa. We partner with startups, MSMEs, public sector companies, and development organizations, providing strategic insights, innovative solutions, and comprehensive support to propel their success.",
                     "button": "Learn about AppleGrove",
