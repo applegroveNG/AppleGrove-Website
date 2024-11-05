@@ -5,8 +5,8 @@
             "userId": 1,
             "title": "The Power of Strategic Consulting: How AppleGrove Advisory Limited Can Transform Your Business",
             "paragraph": "How do you create compelling presentations that wow your colleagues and impress your managers? Here’s how to get started.",
-            "image": "/src/lib/images/Container.png",
-            "thumbnail": "/src/lib/images/advsiory.png",
+            "image": "/blog/images/Container.png",
+            "thumbnail": "/blog/images/advsiory.png",
             "featured": 1,
             "categories": "Consulting",
             "postedDate": "20 Jun 2024"
@@ -17,7 +17,7 @@
             "title": "What should I do Next to Grow My Business?",
             "paragraph": "Thought leadership on key development trends in Africa",
             "image": "",
-            "thumbnail": "/src/lib/images/thumbnail.png",
+            "thumbnail": "/blog/images/thumbnail.png",
             "featured": 0,
             "categories": "Advisory",
             "postedDate": "20 Jun 2024"
@@ -28,7 +28,7 @@
             "title": "What should I do Next to Grow My Business?",
             "paragraph": "Thought leadership on key development trends in Africa",
             "image": "",
-            "thumbnail": "/src/lib/images/thumbnail2.png",
+            "thumbnail": "/blog/images/thumbnail2.png",
             "featured": 0,
             "categories": "Advisory",
             "postedDate": "20 Jun 2024"
@@ -39,7 +39,7 @@
             "title": "What should I do Next to Grow My Business?",
             "paragraph": "Thought leadership on key development trends in Africa",
             "image": "",
-             "thumbnail": "/src/lib/images/thumbnail3.png",
+             "thumbnail": "/blog/images/thumbnail3.png",
             "featured": 0,
             "categories": "Advisory",
             "postedDate": "20 Jun 2024"
@@ -50,7 +50,7 @@
             "title": "What should I do Next to Grow My Business?",
             "paragraph": "Thought leadership on key development trends in Africa",
             "image": "",
-             "thumbnail": "/src/lib/images/thumbnail.png",
+             "thumbnail": "/blog/images/thumbnail.png",
             "featured": 0,
             "categories": "Advisory",
             "postedDate": "20 Jun 2024"
@@ -61,7 +61,7 @@
             "title": "What should I do Next to Grow My Business?",
             "paragraph": "Thought leadership on key development trends in Africa",
             "image": "",
-             "thumbnail": "/src/lib/images/thumbnail3.png",
+             "thumbnail": "/blog/images/thumbnail3.png",
             "featured": 0,
             "categories": "Advisory",
             "postedDate": "20 Jun 2024"
@@ -72,7 +72,7 @@
             "title": "What should I do Next to Grow My Business?",
             "paragraph": "Thought leadership on key development trends in Africa",
             "image": "",
-             "thumbnail": "/src/lib/images/thumbnail.png",
+             "thumbnail": "/blog/images/thumbnail.png",
             "featured": 0,
             "categories": "Advisory",
             "postedDate": "20 Jun 2024"
